@@ -52,11 +52,12 @@ const Navbar = () => {
                 </li>
             </ul>
        </div>
+
        {/* desktop */}
        <div className='navbar'>
             <div className='navbar__img'>
                 <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-                      <IoCarSport size={40} h/>
+                     {/*  <IoCarSport size={40} h/> */}
                       <h1>Khoukha <span>car</span></h1>
                 </Link>
             </div>
@@ -104,6 +105,7 @@ const Navbar = () => {
                     </Link>
                 </div>
             </ul>
+
             {/* mobile */}
             <div className='mobile-menu-icon' onClick={openNav}>
             <IoMdMenu size={30}/>
