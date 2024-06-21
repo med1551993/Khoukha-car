@@ -17,7 +17,7 @@ const CarBox = ({ data, id }) => {
         </div>
         <div className="pick-description">
           <div className="pick-description-price">
-            <span>$45</span>/ rent per day
+            <span>${car.price}</span>/ rent per day
           </div>
           <div className="pick-description-table">
             <div className="pick-description-table-row">

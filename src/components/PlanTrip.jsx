@@ -15,7 +15,7 @@ const PlanTrip = () => {
             </div>
             <div className="plan-container-boxes">
               <div className="plan-container-boxes-box">
-              <div className="plan-container-boxes-box-img shape1">
+               <div className="plan-container-boxes-box-img shape1">
                <GrCheckboxSelected size={50} color='#ffc300'/>
                 </div>
                 <h3>Select Car</h3>
