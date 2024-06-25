@@ -14,9 +14,9 @@ const Models = () => {
                             <img src={car.img} alt='car_img' />
                             <h3>{car.name}</h3>
                                 <div className='car-data'> 
-                                    <span>{car.year}</span>
+                                    <span> {car.year}</span>
                                     <span>{car.doors}</span>
-                                    <span>{car.transmission}</span>
+                                    <span> {car.transmission}</span>
                                 </div>
                              <button className="book-btn">
                                 BOOK NOW

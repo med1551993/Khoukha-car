@@ -934,7 +934,7 @@ footer {
   text-align: center;
   padding: 10px 60px;
   border-radius: 0.3rem;
-  box-shadow: 0 3px 20px 0 #d4a714;
+  box-shadow: 0 3px 6px 0 #d4a714;
   border: 2px solid var(--text-yellow);
   font-weight: 700;
   font-size: 1.7rem;
@@ -946,8 +946,9 @@ footer {
 }
 
 .submit-email:hover {
-  box-shadow: 0 5px 15px 0 #d4a714;
+  box-shadow: 0 5px 12px 0 #d4a714;
   background-color: #f4bc06;
+  border: 2px solid #f4bc06;
 }
 
 .hero-page {
@@ -1141,7 +1142,7 @@ footer {
 }
 
 .contact-div-form form label b {
-  color: var(--text-yellow);
+  color: red;
 }
 
 .contact-div-form form input {
@@ -1234,6 +1235,7 @@ footer {
   padding: 1rem;
   border-radius: 0.5rem;
   background-color: rgba(114, 110, 110, 0.1);
+  border: 1px solid rgba(114, 110, 110, 0.2);
 }
 
 .book-btn {
@@ -1244,8 +1246,61 @@ footer {
   outline: none;
   color: var(--text-yellow);
   transition: all 0.3s;
+  border-radius: 0.5rem;
 }
 
 .book-btn:hover {
   border: 2px solid var(--text-yellow);
+}
+
+.book-content{
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+
+.book-content-box{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 5rem;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+    height: auto;
+    position: relative;
+    border-radius: 5px;
+    background-image: url("/src/images/book-car/book-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: #010103;
+}
+
+.book-content-box h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 2.7rem;
+}
+
+.book-content-box .box-form{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:2rem;
+}
+
+.book-content-box .box-form b{
+    color: red;
+}
+
+.book-content-box .box-form-car-type{
+    display: flex;
+    flex-direction: column;
+}
+
+.book-content-box .box-form-car-type label{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
 }

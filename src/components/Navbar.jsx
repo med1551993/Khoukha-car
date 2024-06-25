@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo from "../images/logo/logo.png"
 import { IoMdMenu } from "react-icons/io";
 import { IoClose } from "react-icons/io5";
-import { IoCarSport } from "react-icons/io5";
 
 const Navbar = () => {
     const [mobileNav, setMobileNav] =useState(false)
@@ -35,7 +33,7 @@ const Navbar = () => {
                         Vehicle Models
                     </Link>
                 </li>
-                <li>
+              {/*   <li>
                     <Link to="/testimonials" onClick={openNav}>
                         Testimonials
                     </Link>
@@ -44,7 +42,7 @@ const Navbar = () => {
                     <Link to="/team" onClick={openNav}>
                         Our Team
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link to="/contact" onClick={openNav}>
                         Contact
@@ -77,7 +75,7 @@ const Navbar = () => {
                         Vehicle Models
                     </Link>
                 </li>
-                <li>
+                {/* <li>
                     <Link to="/testimonials">
                         Testimonials
                     </Link>
@@ -86,7 +84,7 @@ const Navbar = () => {
                     <Link to="/team">
                         Our Team
                     </Link>
-                </li>
+                </li> */}
                 <li>
                     <Link to="/contact">
                         Contact
